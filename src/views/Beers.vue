@@ -5,7 +5,7 @@
             <li @click="beerActive=beer" v-for="beer in beers" :key="beer.id">{{ beer.name }}</li>
         </ul>
         <hr>
-        <transition enter-active-class="animate__animated animate__bounce">
+        <transition enter-active-class="animate__animated animate__backInDown" appear>
                 <h2>Avec VueX</h2>
         </transition>
                 <ul class="beers-list">

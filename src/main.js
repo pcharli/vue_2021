@@ -3,9 +3,10 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
-import 'animate.css'
+//import AnimateCss from 'animate.css'
 
 Vue.config.productionTip = false
+//Vue.use(AnimateCss)
 
 new Vue({
   router,
